@@ -7,7 +7,7 @@ import smtplib
 
 def send_email(data):
     gmail_user='majidkhatibshahidi@gmail.com'
-    gmail_password='makhsh2367'
+    gmail_password='your email password'
     sent_from = gmail_user+data['email']
     to = ['majid.shahidi68@gmail.com']
     subject = 'Hi'
