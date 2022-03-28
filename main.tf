@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "eu-central-1"
-  access_key = ""
-  secret_key = ""
 }
 
 resource "aws_security_group" "allow_web_traffic" {
